@@ -1,0 +1,39 @@
+button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+
+.item4, .item5, .item6, .item7, .item8, .item9 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.item4 img, .item5 img, .item6 img, .item7 img, .item8 img, .item9 img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+h1 {
+    text-align: center;
+}
